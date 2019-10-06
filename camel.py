@@ -18,15 +18,15 @@ km = 0
 water = 20 
 tiredness = 0 
 owner = -20
-kmm = random.randint(3,5)
-kmmm = random.randint(5,7)
+kmm = random.randint(5,7)
+kmmm = random.randint(7,10)
 waterm = random.randint(4,6)
 watermm = random.randint(7,10)
 tirednessm = random.randint(4,6)
 tirednessmm = random.randint(7,10)
-waterp = random.randint(3,5)
+waterp = random.randint(5,8)
 tirednessp = 1
-tirednessk= random.randint(4,7)
+tirednessk= random.randint(6,7)
 while True:
 	print("A. Dar água para o camelo.")
 	print("B. Avançar com velocidade moderada.")
@@ -35,21 +35,13 @@ while True:
 	print("E. Checar o status.")
 	print("Q. Sair.")
 	print()
-	res = input("Qual a sua escolha?	")
-	print()
-	print()
-	print()
-	print()
-	print()
-	print()
-	print()
-	print()
+	res = input("	Qual a sua escolha?	")
 	print()
 	print()
 	print()
  #(1)
 	if res == "Q" or res == "q":
-		p1 = input("Você tem certeza? [s/n]	")
+		p1 = input("	Você tem certeza? [s/n]	")
 		print()
 		if p1 == "S" or p1 == "s":
 			break
@@ -60,17 +52,6 @@ while True:
 		print()
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-
-
 #(2)
 	if res == "E" or res == "e":
 		print(f"Você andou {km} km")
@@ -87,16 +68,6 @@ while True:
 		print()	
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-
 #(3)
 	if res == "C" or res == "c":
 		km += kmmm
@@ -105,22 +76,12 @@ while True:
 		owner += random.randint(5,6)
 		print()
 		print("+" + str(kmmm) + " km")
-		print(f"- {watermm} água")
-		print(f"+ {tirednessmm} cansaço")
+		print(f"-{watermm} água")
+		print(f"+{tirednessmm} cansaço")
 		print("O dono está " + str(km - owner) + " km de você")
 		print()
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-
 #(4)
 	if res == "B" or res == "b":
 		km += kmm 
@@ -129,65 +90,34 @@ while True:
 		owner += random.randint(5,6)
 		print()
 		print("+" + str(kmm) + " km")
-		print(f"- {waterm} água")
-		print(f"+ {tirednessm} cansaço")
+		print(f"-{waterm} água")
+		print(f"+{tirednessm} cansaço")
 		print("O dono está " + str(km - owner) + " km de você")
 		print()
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-
 #(5)
 	if  res == "A" or res == "a":
 		water += waterp
 		tiredness -= tirednessp 
-		owner += random.randint(5,6)
+		owner += random.randint(4,5)
 		print()
-		print(f"+ {waterp} água")
-		print(f"- {tiredness} cansaço")
+		print(f"+{waterp} água")
+		print(f"-{tirednessp} cansaço")
 		print("O dono está " + str(km - owner) + " km de você")
 		print()
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-
 #(6)
 	if res == "D" or res == "d":
 		tiredness -= tirednessk
-		owner += random.randint(5,8)
+		owner += random.randint(5,7)
 		print()
-		print(f"- {tirednessk} cansaço")
+		print(f"-{tirednessk} cansaço")
 		print("O dono está " + str(km - owner) + " km de você")
 		print()
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-
-
 #(7)
 	if tiredness >= 20:
 		print("Seu camelo morreu de cansaço, você perdeu.")
@@ -206,16 +136,7 @@ while True:
 			print("Resposta não válida")
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()		
+		print()	
 #(8)
 	if water <= 0:
 		print("Seu camelo morreu de sede, você perdeu.")
@@ -232,15 +153,6 @@ while True:
 			break
 		else:
 			print("Resposta não válida")
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
 		print()
 		print()
 		print()
@@ -263,15 +175,6 @@ while True:
 		print()	
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
 #(10)
 	if km >= 50:
 		print("Você conseguiu fugir do dono do camelo com sucesso, parabéns você venceu.")
@@ -291,17 +194,14 @@ while True:
 		print()
 		print()
 		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
-		print()
+	
 #(11)
 	if km == random.randint(10,15):
+		input("aperte ENTER para continuar")
+		print() 
+		print("'Mas o quê?! Será que eu estou ficando louco!? Mas o quê é aquilo?!'")
+		print()
+		input("aperte ENTER para continuar")
 		print()
 		print("Você achou um oásis!!")
 		print()
@@ -309,7 +209,7 @@ while True:
 		tiredness -= 5
 		owner += 2 
 #(12)
-	if (km-owner) >= 2 and (km-owner)<0 and tiredness >= 18 and tiredness <20:
+	if (km-owner) < 0 and tiredness > 20 and water < 0:
 		input("	aperte ENTER para continuar")
 		print("Você: Tsugi wa Jotaro, kisama da!")	
 		print("Dono: Yarou… DIO!")	
@@ -337,7 +237,8 @@ while True:
 			print("C. Ativar 『The World』")
 			print("Q. Sair.")
 			print()
-			res2 = input("O que fará??")
+			res2 = input("	O que fará??	")
+			print()
 #(12.1)
 			if res2 == "Q" or res2 == "q":
 				print()
@@ -352,6 +253,8 @@ while True:
 					print()
 #(12.2)
 			if res2 == "A" or  res2 == "a":
+				print()
+				print("Correr nunca foi uma opção, ainda mais para alguém com o 『The World』")
 				print("Você ainda se acha merecedor do 『The World』?!")
 				print("Um homem não foge da luta,")
 				print("ainda mais contra a família Joestar.")
@@ -373,49 +276,51 @@ while True:
 					print("Resposta não válida")
 					print()
 #(12.3)
-				if res2 == "C" or  res2 == "c":
-					print("Dono: Ora!")
-					print("Você: Noroi, noroi! Za Warudo wa saikyou no Sutando da.")
-					print("Você:  Jikan wa tomezetomo,")
-					print("Você:  supiido to paowa to te omae no Suta Purachina yoryuu enna no towa!")
-					input("Aperte ENTER para continuar.")
-					print("Dono: Ore no Suta Purachina to onaji taipu wo Sutando nara.")
-					print("Dono: Enkyori enai kenai da, paowa to semitsu na bokina dekiru.")
-					input("Aperte ENTER para continuar.")
-					print("To be continued...")
-					input("Aperte ENTER para continuar.")
+			if res2 == "C" or  res2 == "c":
+				print()
+				print("Dono: Ora!")
+				print("Você: Noroi, noroi! Za Warudo wa saikyou no Sutando da.")
+				print("Você: Jikan wa tomezetomo,")
+				print("Você: supiido to paowa to te omae no Suta Purachina yoryuu enna no towa!")
+				input("Aperte ENTER para continuar.")
+				print("Dono: Ore no Suta Purachina to onaji taipu wo Sutando nara.")
+				print("Dono: Enkyori enai kenai da, paowa to semitsu na bokina dekiru.")
+				input("Aperte ENTER para continuar.")
+				print("To be continued...")
+				input("Aperte ENTER para continuar.")
+				print()
+				p2 = input("Tentar novamente? [s/n]	")
+				print()
+				if p2 == "S" or p2 == "s":
+					km = 0 
+					water = 20 
+					tiredness = 0
+					owner = -20 
+					continue
+				if p2 == "N" or p2 == "n":
+					break 
+				else:
+					print("Resposta não válida")
 					print()
-					p2 = input("Tentar novamente? [s/n]	")
-					print()
-					if p2 == "S" or p2 == "s":
-						km = 0 
-						water = 20 
-						tiredness = 0
-						owner = -20 
-						continue
-					if p2 == "N" or p2 == "n":
-						break 
-					else:
-						print("Resposta não válida")
-						print()
 #(12.4)
-				if res2 == "B" or res2 =="b":
-					print("Uma morte inevitável já lhe aguardava")
-					print("com a força de um milhão de homens.")
-					print("Parece que o 『Star Platinum』 realmente era melhor que o seu 『The World』")
-					input("Aperte ENTER para continuar.")
-					print("Você morre e perde")
+			if res2 == "B" or res2 =="b":
+				print()
+				print("Uma morte inevitável já lhe aguardava")
+				print("com a força de um milhão de homens.")
+				print("Parece que o 『Star Platinum』 realmente era melhor que o seu 『The World』")
+				input("Aperte ENTER para continuar.")
+				print("Você morre e perde")
+				print()
+				p2 = input("Tentar novamente? [s/n]	")
+				print()
+				if p2 == "S" or p2 == "s":
+					km = 0 
+					water = 20 
+					tiredness = 0
+					owner = -20 
+					continue
+				if p2 == "N" or p2 == "n":
+					break 
+				else:
+					print("Resposta não válida")
 					print()
-					p2 = input("Tentar novamente? [s/n]	")
-					print()
-					if p2 == "S" or p2 == "s":
-						km = 0 
-						water = 20 
-						tiredness = 0
-						owner = -20 
-						continue
-					if p2 == "N" or p2 == "n":
-						break 
-					else:
-						print("Resposta não válida")
-						print()
