@@ -18,16 +18,17 @@ km = 0
 water = 20 
 tiredness = 0 
 owner = -20
-kmm = random.randint(5,7)
-kmmm = random.randint(7,10)
-waterm = random.randint(4,6)
-watermm = random.randint(7,10)
-tirednessm = random.randint(4,6)
-tirednessmm = random.randint(7,10)
-waterp = random.randint(5,8)
 tirednessp = 1
-tirednessk= random.randint(6,7)
 while True:
+	kmm = random.randint(5,7)
+	kmmm = random.randint(8,10)
+	waterm = random.randint(4,5)
+	watermm = random.randint(7,9)
+	tirednessm = random.randint(4,5)
+	tirednessmm = random.randint(7,9)
+	waterp = random.randint(6,8)
+	tirednessk= random.randint(6,8)
+
 	print("A. Dar água para o camelo.")
 	print("B. Avançar com velocidade moderada.")
 	print("C. Avançar com velocidade máxima.")
@@ -111,7 +112,7 @@ while True:
 #(6)
 	if res == "D" or res == "d":
 		tiredness -= tirednessk
-		owner += random.randint(5,7)
+		owner += random.randint(5,6)
 		print()
 		print(f"-{tirednessk} cansaço")
 		print("O dono está " + str(km - owner) + " km de você")
@@ -157,6 +158,13 @@ while True:
 		print()
 		print()
 #(9)
+	if water <= 10:
+		print()
+		print("Você deveria beber mais água, seu camelo está com sede...")
+		print()
+		p2 = input("aperte ENTER para continuar")
+		print()
+#(10)
 	if (km-owner) <= 0:
 		print("O dono alcançastes, você perdeu.")
 		print()
@@ -175,7 +183,21 @@ while True:
 		print()	
 		print()
 		print()
-#(10)
+#(11)
+	if (km-owner) <= 5:
+		print()
+		print("O dono está muito perto, você deveria andar mais...")
+		print()
+		p2 = input("aperte ENTER para continuar")
+		print()
+#(12)
+	if tiredness >= 10:
+		print()
+		print("Você deveria descansar mais, seu camelo está com cansado...")
+		print()
+		p2 = input("aperte ENTER para continuar")
+		print()
+#(13)
 	if km >= 50:
 		print("Você conseguiu fugir do dono do camelo com sucesso, parabéns você venceu.")
 		print()
@@ -195,8 +217,8 @@ while True:
 		print()
 		print()
 	
-#(11)
-	if km == random.randint(10,15):
+#(14)
+	if km == random.randint(10,40):
 		input("aperte ENTER para continuar")
 		print() 
 		print("'Mas o quê?! Será que eu estou ficando louco!? Mas o quê é aquilo?!'")
@@ -208,8 +230,8 @@ while True:
 		water += 5
 		tiredness -= 5
 		owner += 2 
-#(12)
-	if (km-owner) < 0 and tiredness > 20 and water < 0:
+#(15)
+	if (km-owner) < 0 and tiredness > 20 :
 		input("	aperte ENTER para continuar")
 		print("Você: Tsugi wa Jotaro, kisama da!")	
 		print("Dono: Yarou… DIO!")	
@@ -239,7 +261,7 @@ while True:
 			print()
 			res2 = input("	O que fará??	")
 			print()
-#(12.1)
+#(15.1)
 			if res2 == "Q" or res2 == "q":
 				print()
 				p1 = input("Você tem certeza? [s/n]	")
@@ -251,7 +273,7 @@ while True:
 				else:
 					print("Resposta não válida, digite novamente")
 					print()
-#(12.2)
+#(15.2)
 			if res2 == "A" or  res2 == "a":
 				print()
 				print("Correr nunca foi uma opção, ainda mais para alguém com o 『The World』")
@@ -275,7 +297,7 @@ while True:
 				else:
 					print("Resposta não válida")
 					print()
-#(12.3)
+#(15.3)
 			if res2 == "C" or  res2 == "c":
 				print()
 				print("Dono: Ora!")
@@ -302,7 +324,7 @@ while True:
 				else:
 					print("Resposta não válida")
 					print()
-#(12.4)
+#(15.4)
 			if res2 == "B" or res2 =="b":
 				print()
 				print("Uma morte inevitável já lhe aguardava")
