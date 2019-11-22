@@ -1,0 +1,256 @@
+def mp1():
+	 mapa = print(""" 	,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (        Você             (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+def mp2():
+	 mapa = print(""" 	,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,       Você             (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+def porta():
+	print("")
+	print("A porta se abre, uma nova sala o aguarda.")
+	input("	......")
+
+def puzzle1():
+	print()
+	print("A porta não se abre ela precisa de uma senha para abrir")
+	print("SENHA:")
+
+def story1():
+	print("")
+	print("'Que sala estranha, parando para pensar, o que eu estou fazendo aqui'")
+	print("'Pelo que eu me lembre ontem eu estava '")
+
+def dica1():
+	print("")
+	print("	Apesar da sala estar vazia você encontra um desenho de um relógio, ")
+	print("	nele está escrito:")
+	print("	'O mais velho olha para o norte e mais novo para o sul.'")
+	print("")
+
+def line01():
+	print("")
+	print("Bem, o que você espereva, que a resposta cairia na sua cabeça?")
+	input("Press ENTER to continue...")
+	print("e não é que caiu")
+	print("")
+	print("Você achou um mapa")
+	mp1()
+	print("")
+
+def line02():
+	print("")
+	print("Bem...")
+	print("Agora você sabe onde está, mas e agora, o que fazer?")
+
+def line03():
+	print("")
+	print("A porta se abre, uma nova sala o aguarda.")
+	input("	......")
+	print("'Mas o que é isso, sinto um cheiro de carne podre', diz você.")
+	print("Com cereteza esse cheiro não era bom, mesmo assim, o que uma pessoa perdida como você poderia fazer?")
+
+def p1():
+	print("")
+	print("O que vai fazer?	")
+	print("A. Nada")
+	print("B. Quase nada")
+	print("C. Absolutamente nada")
+	print("D. Deitar e chorar, eu não consigo fazer nada sem as minhas roupas")
+
+
+def sala1():
+	print("")
+	print("A. Pegar aquela cueca jogada no canto da sala, afinal, eu não gosto de andar pelado por aí dur.")
+	print("B. Ir na porta ao Oeste.")
+	print("C. Ir na porta ao Leste.")
+	print("D. Vasculhar a sala.")
+	print("E. Ver o mapa.")
+
+def sala2():
+	print("A. Pegar aquela camisa no canto da sala.")
+	print("B. Ir para a porta ao Norte")
+	print("C. Ir para a porta ao Leste")
+	print("D. Vasculhar a sala.")
+	print("E. Ver o mapa.")
+
+def line1():
+	print("")
+	print("Ainda bem que você estava fazendo QUASE nada")
+	print("pelo visto você procurou por algo naquela pequena sala escura e fria")
+	print("Você encontrou um mapa")
+	print(mp1())
+
+
+
+
+
+
+
+print()
+print()
+print()
+print("Para uma melhor imersão, habilite o FULLSCREEN")
+print("""	______                            _           _                                  _           _                               _   
+	| ___ \                          (_)         | |                                | |         | |                             | |  
+	| |_/ / ___ _ __ ___ ________   ___ _ __   __| | ___     __ _  ___    _ __   ___| | __ _  __| | ___     __ _ _   _  ___  ___| |_ 
+	| ___ \/ _ \ '_ ` _ \______\ \ / / | '_ \ / _` |/ _ \   / _` |/ _ \  | '_ \ / _ \ |/ _` |/ _` |/ _ \   / _` | | | |/ _ \/ __| __|
+	| |_/ /  __/ | | | | |      \ V /| | | | | (_| | (_) | | (_| | (_) | | |_) |  __/ | (_| | (_| | (_) | | (_| | |_| |  __/\__ \ |_ 
+	\____/ \___|_| |_| |_|       \_/ |_|_| |_|\__,_|\___/   \__,_|\___/  | .__/ \___|_|\__,_|\__,_|\___/   \__, |\__,_|\___||___/\__|
+  	                          	                                     | |                                  | |                    
+	                                                                     |_|                                  |_|                    """)
+print()
+print("	Você está pelado, com frio, com fome e principalmente confuso.")
+print("	Bem, se você já se perguntou como é sair por aí pelado, agora é a hora, se não, que pena.")
+print()
+print("	'Onde eu estou', você se pergunta.")
+print()
+p1()
+res1 = input()
+																							#tirar os noneS
+if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
+	print(line01())
+	print(line02())
+	print(sala1())
+	res2 = input()
+	while True:
+		if res2 == "A"or res2 == "a":
+			print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+			break
+		if res2 == "C" or res2 == "c":
+			print()
+			print("A porta está trancada.")
+			print("O que vai fazer?")
+			print(sala1())
+			res2 = input()
+		if res2 == "D" or res2 == "d":
+			print(dica1())
+			print("O que vai fazer?")
+			print(sala1())
+			res2 = input()
+		if res2 == "E" or res2 == "e":
+			print()
+			print(mp1())
+			print()
+			print("O que vai fazer?")
+			print(sala1())
+			res2 = input()		
+		if res2 == "B"or res2 == "b":
+			print(line03())
+			print("O que vai fazer?")
+			print(sala2())
+			res3 = input()
+			while True:
+																							#como quebrar esse segundo while, de uma vez
+				#if res3 == "A" or res3 == "a":
+				#	print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+				#	break
+				#	break	
+																							#quebrar o segundo loop para voltar ao primeiro
+				#if res3 == "C" or res3 == "c":
+				#	print("O que vai fazer?")
+				#	break
+				#	print(sala1())
+				#	res2 = input("")
+				if res3 == "E" or res3 == "e":
+					print()
+					print(mp2())
+					print()
+					print("O que vai fazer?")
+					print(sala2())
+					res3 = input()		
+				if res3 == "D" or res3 == "d":
+					print()
+					print(story1())
+					print()
+					print("O que vai fazer?")
+					print(sala2())
+					res3 = input()	
+				if res3 == "B"  or res3 == "b":
+					print(puzzle1())
+					RES1 = input()
+					if RES1 == "Seis horas" or RES1 == "seis horas" or RES1 == "SEIS HORAS" or RES1 == "6 horas" or RES1 == "6 Horas" or RES1 == "6 HORAS":
+						print(line03())
+					else:
+						print()
+						print("Senha errada.")
+						print()
+						print("O que vai fazer?")
+						print(sala2())
+						res3 = input()
