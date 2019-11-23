@@ -1,5 +1,6 @@
 def mp1():
-	 mapa = print(""" 	,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	 mapa = print(""" 	
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
 	,,                        /                         /                         (             
 	,,                        (                         (                         (                I
 	,,                        (                         (                         (                I
@@ -32,7 +33,7 @@ def mp1():
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
-	,,                        (        Você             (                         (             
+	,,                        (         Você            (                         (             
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
@@ -41,7 +42,8 @@ def mp1():
 	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
 
 def mp2():
-	 mapa = print(""" 	,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	 mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
 	,,                        /                         /                         (             
 	,,                        (                         (                         (                I
 	,,                        (                         (                         (                I
@@ -74,7 +76,311 @@ def mp2():
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
-	,,       Você             (                         (                         (             
+	,,         Você           (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+
+def mp3():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,         Você           (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+def mp4():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (          Você           (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+def mp5():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (          Você           (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+def mp6():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (          Você           (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+
+def mp7():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,         Você           (                         (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+
+def mp8():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (          Você           (                         (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,(/((((((((((((((((((((((/#(((((((((((((((((((((((((#(((((((((((((((((((((((((/             """)
+
+def mp9():
+	mapa = print("""
+	 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.                 N
+	,,                        /                         /                         (             
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (          Você           (    O ----------+------------ L
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,,                        (                         (                         (                I
+	,/,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,#,,,,,,,,,,,,,,,,,,,,,,,,,(             
+	,,                        (                         (                         (                S
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,#(((((((((((((((((((((((/%(((((((((((((((((((((((((%(/(((((((((((((((((((((((#             
+	,,                        (                         /                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
+	,,                        (                         (                         (             
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
 	,,                        (                         (                         (             
@@ -87,22 +393,83 @@ def porta():
 	print("A porta se abre, uma nova sala o aguarda.")
 	input("	......")
 
-def puzzle1():
+def puzzle():
 	print()
 	print("A porta não se abre ela precisa de uma senha para abrir")
 	print("SENHA:")
 
+
 def story1():
-	print("")
+	print()
 	print("'Que sala estranha, parando para pensar, o que eu estou fazendo aqui'")
-	print("'Pelo que eu me lembre ontem eu estava '")
+	input()
+	print("'Pelo que eu me lembre ontem eu estava em casa'")
+	input()
+	print("'E agora eu estou aqui, e'")
+	input()
+	print("'Pelado?'")
+
+def story2():
+	print()
+	print("'Mas o que é isso?'")
+	input()
+	print("'Uma carta? Para " + str(inverseplayername.lower()) + "'")
+	input()
+	print("'Mas quem é esse?'")
+	input()
+	print("'O que são todos esses tubos de ensaio.'")
+	input()
+	print("'O que eles estão fazendo aqui?'")
+
+def story3():
+	print()
+	print("'Calma, agora eu me lembro,'")
+	input()
+	print("'eu estava em casa preparando um soro...'")
+	input()
+	print(str(inverseplayername.lower()) + ": Sim, um soro, para separar os seus dois lados.")
+	input()
+	print(str(inverseplayername.lower()) + ": O seu lado ruim, eu. E o seu lado bom, você.")
+	input()
+	print("'Agora eu me lembro, eu queria aflorar os meus lados bons, me aprimorar, e para isso, eu deveria tirar todos os meus defeitos.'")
+	input()
+	print(str(inverseplayername.lower()) + ": E assim eu surgi, dos seus pensamentos mais orgulhosos e vaidosos.")
+	input()
+	print(str(inverseplayername.lower()) + ": Você dormiu por um grande período de tempo, e nesse tempo eu assumi o seu lugar.")
+	input()
+	print(str(inverseplayername.lower()) + ": Mesmo eu sendo os seus maiores defeitos, eu consegui viver uma vida melhor que você,")
+	input()
+	print(str(inverseplayername.lower()) + ": será que você ainda se acha melhor que eu, os seus defeitos, é claro que não!")
+	input()
+	print("'O-o q-que você quer dizer com isso?'")
+	input()
+	print(str(inverseplayername.lower()) + ": É simples, só pode existir um de nós, e esse sou eu, agora, morra!")
+	input()
+	print("'V-você realmente faria isso com uma pessoa pelada, indefesa?'")
+	input()
+	print(str(inverseplayername.lower()) + ": hmm...")
+	input()
+	print(str(inverseplayername.lower()) + ": Parando para pensar você tem razão.")
+	input()
+	print("'I-isso.'")
+	input()
+	print(str(inverseplayername.lower()) + ": Mesmo assim, eu continuo sendo o seu lado ruim, então morra")
+
+
 
 def dica1():
-	print("")
+	print()
 	print("	Apesar da sala estar vazia você encontra um desenho de um relógio, ")
 	print("	nele está escrito:")
 	print("	'O mais velho olha para o norte e mais novo para o sul.'")
-	print("")
+	print()
+
+def dica2():
+	print()
+	print("Você encontra um papel,")
+	print("nele está escrito,")
+	print(" 'De manhã, tenho quatro pernas, de tarde, duas e de noite, três. O que sou eu? '")
+	print()
 
 def line01():
 	print("")
@@ -123,7 +490,7 @@ def line03():
 	print("")
 	print("A porta se abre, uma nova sala o aguarda.")
 	input("	......")
-	print("'Mas o que é isso, sinto um cheiro de carne podre', diz você.")
+	print("'Mas o que é isso, sinto um cheiro de químicos', diz você.")
 	print("Com cereteza esse cheiro não era bom, mesmo assim, o que uma pessoa perdida como você poderia fazer?")
 
 def p1():
@@ -150,6 +517,27 @@ def sala2():
 	print("D. Vasculhar a sala.")
 	print("E. Ver o mapa.")
 
+def sala3():
+	print("A. Pegar aquela bermuda no canto da sala.")
+	print("B. Ir para a porta ao Leste.")
+	print("C. Ir para a porta ao Sul.")
+	print("D. Vasculhar a sala.")
+	print("E. Ver o mapa.")
+
+def sala4():
+	print("A. Pegar aquela meia no canto da sala.")
+	print("B. Ir para a porta ao Norte.")
+	print("C. Ir para a porta ao Leste.")
+	print("D. Ir para a porta ao Oeste.")
+	print("E. Ver o mapa.")
+
+def sala5():
+	print("A. Pegar aquela saia no canto da sala.")
+	print("B. Ir para a porta ao Norte.")
+	print("C. Ir para a porta ao Oeste.")
+	print("D. Vasculhar a sala.")
+	print("E. Ver o mapa.")
+
 def line1():
 	print("")
 	print("Ainda bem que você estava fazendo QUASE nada")
@@ -158,16 +546,13 @@ def line1():
 	print(mp1())
 
 
-
-
-
-
-
 print()
 print()
 print()
 print("Para uma melhor imersão, habilite o FULLSCREEN")
-print("""	______                            _           _                                  _           _                               _   
+print("""
+
+	______                            _           _                                  _           _                               _   
 	| ___ \                          (_)         | |                                | |         | |                             | |  
 	| |_/ / ___ _ __ ___ ________   ___ _ __   __| | ___     __ _  ___    _ __   ___| | __ _  __| | ___     __ _ _   _  ___  ___| |_ 
 	| ___ \/ _ \ '_ ` _ \______\ \ / / | '_ \ / _` |/ _ \   / _` |/ _ \  | '_ \ / _ \ |/ _` |/ _` |/ _ \   / _` | | | |/ _ \/ __| __|
@@ -175,6 +560,10 @@ print("""	______                            _           _                       
 	\____/ \___|_| |_| |_|       \_/ |_|_| |_|\__,_|\___/   \__,_|\___/  | .__/ \___|_|\__,_|\__,_|\___/   \__, |\__,_|\___||___/\__|
   	                          	                                     | |                                  | |                    
 	                                                                     |_|                                  |_|                    """)
+print()
+print("INSIRA O SEU NOME.")
+playername = input("")
+inverseplayername = playername[::-1]
 print()
 print("	Você está pelado, com frio, com fome e principalmente confuso.")
 print("	Bem, se você já se perguntou como é sair por aí pelado, agora é a hora, se não, que pena.")
@@ -189,33 +578,47 @@ if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
 	print(line02())
 	print(sala1())
 	res2 = input()
-	while True:
+	x = 0
+	while x == 0:
 		if res2 == "A"or res2 == "a":
 			print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
 			break
 		if res2 == "C" or res2 == "c":
-			print()
-			print("A porta está trancada.")
-			print("O que vai fazer?")
-			print(sala1())
-			res2 = input()
+			print(puzzle())
+			RES2 = input()
+			#if RES2 == "PESSOA" or RES2 == "pessoa" or RES2 == "Pessoa":
+			#	print(porta())
+			#	print("O que vai fazer?")
+			#	print(sala3())
+			#	res4 = input()
+			#else:
+			#	print()
+			#	print("Senha errada.")
+			#	print()
+			#	print("O que vai fazer?")
+			#	print(sala1())
+			#	res2 = input()
+			#x += 1
 		if res2 == "D" or res2 == "d":
 			print(dica1())
 			print("O que vai fazer?")
 			print(sala1())
 			res2 = input()
+			#x += 1
 		if res2 == "E" or res2 == "e":
 			print()
 			print(mp1())
 			print()
 			print("O que vai fazer?")
 			print(sala1())
-			res2 = input()		
+			res2 = input()	
+			##x += 1	
 		if res2 == "B"or res2 == "b":
 			print(line03())
 			print("O que vai fazer?")
 			print(sala2())
 			res3 = input()
+			#x += 1
 			while True:
 																							#como quebrar esse segundo while, de uma vez
 				#if res3 == "A" or res3 == "a":
@@ -243,10 +646,94 @@ if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
 					print(sala2())
 					res3 = input()	
 				if res3 == "B"  or res3 == "b":
-					print(puzzle1())
+					print(puzzle())
 					RES1 = input()
 					if RES1 == "Seis horas" or RES1 == "seis horas" or RES1 == "SEIS HORAS" or RES1 == "6 horas" or RES1 == "6 Horas" or RES1 == "6 HORAS":
-						print(line03())
+						print(porta())
+						print("O que vai fazer?")
+						print(sala3())
+						res4 = input()
+						#if res4 == "A" or res4 == "a":
+							#print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+							#break
+						#if res4 == "C" or res4 == "c"
+							#print("O que vai fazer?")
+							#break
+							#print(sala2())
+							#res3 = input("")
+						if res4 == "D" or "d":
+							print()
+							print(story2())
+							print()
+							print("O que vai fazer?")
+							print(sala4())
+							res4 = input()	
+						if res4 == "E" or "e":
+							print()
+							print(mp3())
+							print()
+							print("O que vai fazer?")
+							print(sala3())
+							res4 = input()
+						if res4 == "B" or "b":		
+							print(porta())
+							print("O que vai fazer?")
+							print(sala5())
+							res5 = input()
+							#if res5 == "A" or res5 == "a":
+								#print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+								#break
+							#if res5 == "D" or res5 == "d":
+								#print("O que vai fazer?")
+								#break
+								#print(sala3())
+								#res3 = input()
+							if res5 == "E" or res5 == "e":
+								print()
+								print(mp4())
+								print()
+								print("O que vai fazer?")
+								print(sala4())
+								res5 = input()	
+							if res5 == "B" or res5 == "b":
+								print("Você precisa de uma chave para abrir essa porta.")
+								print(mp4())
+								print()
+								print("O que vai fazer?")
+								print(sala4())
+								res5 = input()
+							if res5 == "C" or res5 == "c":
+								print(porta())
+								print("O que vai fazer?")
+								print(sala5())
+								res6 = input()
+								#if res6 == "A" or res6 == "a":
+									#print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+									#break
+								#if res6 == "C" or res6 == "c"
+									#print("O que vai fazer?")
+									#break
+									#print(sala4())
+									#res3 = input()
+								if res6 == "D" or "d":
+									print()
+									print(dica2())
+									print()
+									print("O que vai fazer?")
+									print(sala5())
+									res6 = input()	
+								if res6 == "E" or "e":
+									print()
+									print(mp5())
+									print()
+									print("O que vai fazer?")
+									print(sala5())
+									res6 = input()
+								if res6 == "B" or "b":		
+									print("Você precisa de uma chave para abrir essa porta.")
+									print("O que vai fazer?")
+									print(sala5())
+									res6 = input()	
 					else:
 						print()
 						print("Senha errada.")
