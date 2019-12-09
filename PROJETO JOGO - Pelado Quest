@@ -212,7 +212,7 @@ def saia():
                        ...........,,,*(#%&&&%%%%%&&&&%%%%%%%&&&&#*,..                            
                                              ..........                                            
                                                                                                    """)
-	print("Mesmo você perdendo o jogo, agora tens uma meia bonita.")
+	print("Mesmo você perdendo o jogo, agora tens uma saia bonita.")
 
 def tenis():
 	tenis0 = print("""                                                                                                  
@@ -254,7 +254,7 @@ def tenis():
                                                          .,...#.............,/((#((((((#((,... .   
                                                               .*(((((/,...................... .    
                                                                     .*////((**((((((((////*,.      """)
-	print("Mesmo você perdendo o jogo, agora tens uma meia bonita.")
+	print("Mesmo você perdendo o jogo, agora tens um tênis bonito.")
 
 def moletom():
 	moletom0 = print("""                                                                                                   
@@ -303,6 +303,7 @@ def moletom():
     .,,,,,,,,,,,*,.     ,,************,*************,*********,,,,,,,,,*,          ..,....         
     .,,*****,,,,*.      ,******,,**********************************,,,,*,                          
     ..,,,,,,,,,,,       ...,,,....                                                                 """)
+  print("Mesmo você perdendo o jogo, agora tens um moletom bonito.")
 
 def chapeu():
 	chapeu0 = print("""                                                                                                 
@@ -998,7 +999,9 @@ def line001():
 	print("Como você é covarde! Se for assim, não faça coisa alguma.")
 	print("Você perdeu desde o início, desistir nunca foi uma solução.")
 
-vestido()
+
+
+
 print()
 print()
 print()
@@ -1146,10 +1149,11 @@ if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
 				if res4 == "B" or res4 == "b":
 					porta()
 					print("O que vai fazer?")
-					sala5()
+					sala4()
 					res5 = input()
 					if res5 == "A" or res5 == "a":
 						print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+            meia()
 					if res5 == "D" or res5 == "d":
 						print("O que vai fazer?")
 						sala3()
@@ -1171,6 +1175,7 @@ if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
 							res8 = input()
 							if res8 == "a" or res8 == "A":
 								print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+                moletom()
 							if res8 == "C" or res8 == "c":
 								print("O que vai fazer?")
 								sala4()
@@ -1189,6 +1194,7 @@ if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
 								res9 = input()
 								if res9 == "a" or res9 == "A":
 									print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+                  chapeu()
 								if res9 == "B" or res9 == "b":
 									print("O que vai fazer?")
 									sala7()
@@ -1219,6 +1225,7 @@ if res1 == "A" or res1 == "a" or res1 == "C" or res1 == "c":
 						res6 = input()
 						if res6 == "A" or res6 == "a":
 							print("Bem, parece que você ainda não entendeu o conceito do jogo, você perdeu.")
+              saia()
 						if res6 == "C" or res6 == "c":
 							print("O que vai fazer?")
 							sala4()
