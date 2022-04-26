@@ -1,6 +1,5 @@
-#Elabore um programa que calcule e apresente o valor de S, dado por:
+#    Elabore um programa que calcule e apresente o valor de S, dado por:
 
-#S espaço igual a espaço 1 sobre N mais numerador 2 sobre denominador N menos 1 fim da fração mais numerador 3 sobre denominador N menos 2 fim da fração mais... 
-#mais numerador N menos 1 sobre denominador 2 fim da fração mais N
+#         S = 1/N + 2/N-1 + 3/N-2 + ... + N-1/2 + N
  
-#Em que N  é fornecido pelo usuário.
+#    Em que N  é fornecido pelo usuário.
