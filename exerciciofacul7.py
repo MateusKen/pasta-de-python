@@ -22,15 +22,23 @@
 #Formate a saída para adequar o programa a esse contexto (Não arredondar antes da formatação).
 
 funcionarios = int(input())
+contfunc = 0
+soma = 0
 for x in range(funcionarios):
     salario = float(input())
-    if (salario >3000):
-        oitoporcent = salario+salario*(1/8)
-        print(oitoporcent)
+    if (salario>=3000):
+        oitoporcent = salario + salario*(8/100)
+        print('%.2f ' % oitoporcent)
+        soma = soma+oitoporcent
     elif (salario>=2000):
-        dezporcent = salario+salario/10
-        print(dezporcent)
+        contfunc = contfunc + 1
+        dezporcent = salario + salario/10
+        print('%.2f ' %dezporcent)
+        soma = soma+dezporcent
     else:
-        dozeporcent = salario+salario*(3/25)
-        print(dozeporcent)
-        
+        dozeporcent = salario + salario*(3/25)
+        print('%.2f ' %dozeporcent)
+        soma = soma+dozeporcent
+print(contfunc)
+media = soma/funcionarios
+print('%.2f'%media)        
