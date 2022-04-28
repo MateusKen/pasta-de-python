@@ -13,29 +13,16 @@ que solicita ao usuário o valor da prestação e o número de dias em atraso e 
 desta forma na caixa Answer coloque apenas a função solicitada.
 """
 
-'''
 def valorPagamento (valor, dias):
   if (dias == 0):
-    print(valor)
+    return valor
   elif (dias >0):
     multa = valor*3/100
     juros = valor*dias/1000
-    print(valor + multa+ juros)
-valorPagamento(int(input()), int(input()))
-''' 
+    return valor + multa+ juros
 
-def valorPagamento (valor, dias):
-  if (dias == 0):
-    print(valor)
-  elif (dias >0):
-    multa = valor*3/100
-    juros = valor*dias/1000
-    print(valor + multa+ juros)
-
-def valorPagamento(valor, dias):
-    if dias==0:
-        return valor
-    else:
-        valor+= valor*0.03 + dias*0.001*valor
-        return valor
-
+def main():
+    valor = float(input())
+    dias = int(input())
+    print(valorPagamento(valor,dias))
+main()
